@@ -6,7 +6,8 @@ function compute()
 if (x <= 0)
 { alert("Please enter a positive number.");
             principal.focus();
-            return false;}
+            return false;
+    document.getElementById("principal").focus();}
 else
     
     var principal = document.getElementById("principal").value;
